@@ -10,7 +10,7 @@ public class Console {
         String name = in.nextLine();
         System.out.print("Введіть місто вашого проживання: ");
         String city = in.nextLine();
-        System.out.print("введіть ваш вік: ");
+        System.out.print("Введіть ваш вік: ");
         int age = in.nextInt();
         in.nextLine();
         System.out.print("Яке ваше хоббі?: ");
@@ -23,6 +23,13 @@ public class Console {
         System.out.println("Місто: \t" + city);
         System.out.println("Вік: \t" + age);
         System.out.println("Хоббі: \t" + hobby);
+        System.out.println("_______________");
+        System.out.println();
+        System.out.println("_______________");
+        System.out.println("Варіант №2.");
+        System.out.println("_______________");
+        System.out.println("Людина по імені " + name + " живе у місті " + city);
+        System.out.println("Цій людині " + age + " років і вона любить " + hobby);
         System.out.println("_______________");
     }
 }
