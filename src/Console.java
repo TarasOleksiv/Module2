@@ -31,5 +31,14 @@ public class Console {
         System.out.println("Людина по імені " + name + " живе у місті " + city);
         System.out.println("Цій людині " + age + " років і вона любить " + hobby);
         System.out.println("_______________");
+        System.out.println();
+        System.out.println("_______________");
+        System.out.println("Варіант №3.");
+        System.out.println("_______________");
+        System.out.println(name + " - ім'я");
+        System.out.println(city + " - місто");
+        System.out.println(age + " - вік");
+        System.out.println(hobby + " - хоббі");
+        System.out.println("_______________");
     }
 }
